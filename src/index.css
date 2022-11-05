@@ -1,0 +1,205 @@
+body {
+  margin: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',÷\
+    monospace;
+}
+
+
+h1{
+  color: green;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3rem;
+}
+
+/* .main-container{
+  /* background-color: antiquewhite; */
+/* }  */
+
+.main-img{
+  width: 70%;
+  height: 70%;
+  position: relative;
+  margin-left: 200px;
+  border-radius: 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.welcome{
+  text-align: center;
+  color: green;
+  font-size: 2rem;
+  width: 60%;
+  margin: 2px auto;
+}
+
+.sign-up{
+  margin-left: 30px;
+   
+
+}
+
+label{
+  margin-bottom: 20px;
+  font-size: 2rem
+}
+
+input{
+  width: 300px;
+  height: 25px;
+  border-radius: 20px;
+  margin-bottom: 20px
+}
+
+.signin button{
+  background-color: darkcyan;
+  color: black;
+  cursor: pointer;
+  height: 50px;
+  width: 300px;
+  font-size: 2rem;
+  border: 3px solid black;
+  border-radius: 33px;
+
+}
+
+.signin button:hover{
+  color: red;
+background-color: black;
+
+}
+
+.recipe-desc{
+  font-size: 1.9rem;
+  text-align: center;
+  /* width: 1000px; */
+  /* margin: 0 auto; */
+}
+
+.ps{
+  font-size: 1.6rem;
+  color: red;
+  /* width: 80%; */
+  margin-left: 20px;
+}
+
+/* .recipe-1{
+
+} */
+
+.rec-img{
+  width: 200px;
+  margin-left: 7px;
+  margin-top: 10px;
+} 
+
+.nav-box{
+  width: 215px;
+  /* background-color: darkgrey; */
+  display: inline-block;
+  border-radius: 20px;
+  margin-left: 40px;
+  box-shadow: 7px 40px 46px 20px rgba(0,0,0,0.1);
+
+}
+
+.okra-nav{
+  text-decoration: none;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 2.2rem;
+  margin-bottom: 0px;
+}
+
+.okra-nav:hover{
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+.sign-up{
+  /* text-align: center; */
+
+}
+
+.sign-up input{
+  width: 400px;
+  height: 30px;
+}
+
+.news{
+  background-color: black;
+  color: red;
+}
+
+.nav{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sign-up-btn{
+  /* background-color: chartreuse; */
+  background-color: blue;
+  width: 200px;
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.navigate{
+  background-color: chartreuse;
+  width: 200px;
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  /* margin: 10px; */
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.sign-form input{
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+.sign-up-btn:hover, .navigate:hover{
+  background-color: black;
+  color: red;
+  border-radius: 0px;
+}
+
+.oopsie{
+  font-size: 4rem;
+}
+
+.lost{
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.inline:hover{
+text-decoration: none;
+color: blueviolet;
+}
